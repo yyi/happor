@@ -10,7 +10,7 @@
 		http://www.springframework.org/schema/tx http://www.springframework.org/schema/tx/spring-tx-3.0.xsd
 		http://happor.lechange.cn/schema/tags http://happor.lechange.cn/schema/tags/springtags.xsd">
 
-	<happor:server port="9080" timeout="30" maxHttpSize="1000000" executeThreads="32">
+	<happor:server port="9080" timeout="30" maxHttpSize="100000000" executeThreads="32">
 	    <happor:config type="log4j" file="conf/log4j.properties" />
 	    <happor:config type="container" file="conf/container.properties" />
 	</happor:server>
